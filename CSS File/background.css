@@ -1,0 +1,25 @@
+body {
+  background-color: #333;
+  color: white;
+  text-shadow: black;
+}
+
+header::before {
+  content: "";
+  background: url(../PICS/S__11788326.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#IG:hover {
+  transform: scaleY(0.5);
+  color: yellow;
+}
+a:hover {
+  background-color: chartreuse;
+}

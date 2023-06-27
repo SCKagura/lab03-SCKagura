@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.IG {
+  background: url(../PICS/IG.jfif) center center/cover;
+  width: 150px;
+  height: 150px;
+  transition: background 2s, width 2s, height 2s;
+}
+.IG:hover {
+  background: pink;
+  width: 100vw;
+}
+#IGText {
+  font-family: "Itim", cursive;
+  opacity: 0;
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+#IGText:hover {
+  opacity: 1;
+  background-color: yellow;
+}
+.FB {
+  background: url(../PICS/Facebook.png) center center/cover;
+  width: 150px;
+  height: 150px;
+  transition: background 2s, width 2s, height 2s;
+}
+.FB:hover {
+  background: blue;
+  width: 100vw;
+}
+#FBText {
+  font-family: "Itim", cursive;
+  opacity: 0;
+  color: lightgreen;
+  font-size: 30px;
+}
+#FBText:hover {
+  opacity: 1;
+  background-color: coral;
+}
+.DISCORD {
+  background: url(../PICS/DISCORD.png) center center/cover;
+  width: 150px;
+  height: 150px;
+  transition: background 2s, width 2s, height 2s;
+}
+.DISCORD:hover {
+  background: rgb(66, 144, 170);
+  width: 100vw;
+}
+#DISCORDText {
+  font-family: "Itim", cursive;
+  opacity: 0;
+  color: black;
+  font-size: 30px;
+}
+#DISCORDText:hover {
+  opacity: 1;
+  background-color: cornsilk;
+}
+.CMU {
+  background: url(../PICS/CMU.png) center center/cover;
+  width: 150px;
+  height: 150px;
+  transition: background 2s, width 2s, height 2s;
+}
+.CMU:hover {
+  background: rgb(255, 255, 255);
+  width: 100vw;
+}
+#CMUText {
+  font-family: "Itim", cursive;
+  opacity: 0;
+  color: rgb(138, 17, 151);
+  font-size: 30px;
+}
+#CMUText:hover {
+  opacity: 1;
+  background-color: yellow;
+}
+
+#Experience {
+  float: right;
+}
+a:hover {
+  background-color: chartreuse;
+}
